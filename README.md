@@ -15,9 +15,9 @@ I developed this brute force algorithm during my masters studies. It's a great a
 1. Create a schedule: ```String[] schedule = {"r1x", "r2z", "r1z", "r3y", "r3y", "w1x", "w3y", "r2y", "w2z", "w2y"};```
 2. Create an instance of Schedule (passing in schedule as parameter): ```Schedule s = new Schedule(schedule);```
 3. Can call one of three methods:
-    * s.getSchedule(): returns the schedule 
-    * s.precedenceGraph(): returns a graphical representation of the precedence graph
-    * s.conflictSerializableSolution(): returns information on the schedule
+    * ```s.getSchedule()```: returns the schedule 
+    * ```s.precedenceGraph()```: returns a graphical representation of the precedence graph
+    * ```s.conflictSerializableSolution()```: returns information on the schedule
     
     
 **Input**
