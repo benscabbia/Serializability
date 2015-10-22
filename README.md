@@ -1,6 +1,6 @@
 # Conflict Serializability Algorithm
 
-I developed this application during my advanced database module in my masters studies. 
+I developed this brute force algorithm during my masters studies. It's a great aid to quickly determine whether a schedule is serializable and draw a precendence graph.  
 
 **Features:**
 
