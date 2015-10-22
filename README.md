@@ -2,7 +2,7 @@
 
 I developed this application during my advanced database module in my masters studies. 
 
-Features: 
+**Features: **
 
 * Can handle any size schedule
 * Can test for **conflict Serializability** 
@@ -21,19 +21,17 @@ Features:
     
     
 **Input**
-```
+```java
   String[] schedule = {"r1x", "r2z", "r1z", "r3y", "r3y", "w1x", "w3y", "r2y", "w2z", "w2y"};
   Schedule s = new Schedule(schedule);
   
   System.out.println(s.getSchedule());
   System.out.println(s.precedenceGraph());
   System.out.println(s.conflictSerializableSolution());
-  
-  
 ```
 
 **Output:**
-```
+```java
   //getSchedule()
   r1x, r2z, r1z, r3y, r3y, w1x, w3y, r2y, w2z, w2y, 
   
@@ -45,5 +43,4 @@ Features:
   Is Schedule Conflict-Serializable: True
   Schedule is acyclic, thus it's serializable.
   The schedule is also View-Serializable (Every conflict serializable schedule is also view serializable)
-
 ```
