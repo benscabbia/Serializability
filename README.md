@@ -2,7 +2,7 @@
 
 I developed this application during my advanced database module in my masters studies. 
 
-**Features: **
+**Features:**
 
 * Can handle any size schedule
 * Can test for **conflict Serializability** 
@@ -10,7 +10,7 @@ I developed this application during my advanced database module in my masters st
 * Provides some feedback and basic explanation about the schedule
 *It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
 
-**Usage: **
+**Usage:**
 
 1. Create a schedule: ```String[] schedule = {"r1x", "r2z", "r1z", "r3y", "r3y", "w1x", "w3y", "r2y", "w2z", "w2y"};```
 2. Create an instance of Schedule (passing in schedule as parameter): ```Schedule s = new Schedule(schedule);```
