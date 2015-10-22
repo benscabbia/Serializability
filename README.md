@@ -1,4 +1,4 @@
-# Serializability
+# Conflict Serializability Algorithm
 
 I developed this application during my advanced database module in my masters studies. 
 
@@ -8,7 +8,7 @@ I developed this application during my advanced database module in my masters st
 * Can test for **conflict Serializability** 
 * Can draw a simple **precedence graph**
 * Provides some feedback and basic explanation about the schedule
-*It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
+* It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
 
 **Usage:**
 
