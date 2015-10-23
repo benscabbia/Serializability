@@ -25,7 +25,9 @@ public class Schedule {
             theSchedule = new LinkedList<Operation>();
             populate(schedule);
         } catch (Exception e) {
-            System.out.println("Error Occured");
+            System.out.println("There was an error with the importing of the schedule");
+            System.out.println("The exception: ");
+            e.printStackTrace();
         }
     }
 
