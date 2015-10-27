@@ -11,7 +11,7 @@ I developed this brute force algorithm during my masters studies. It's a great a
 * It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
 
 
-Usage (from IDE)
+Usage (from IDE):
 ------
 
 1. Create a schedule: ```String[] schedule = {"r1x", "r2z", "r1z", "r3y", "r3y", "w1x", "w3y", "r2y", "w2z", "w2y"};```
@@ -49,6 +49,11 @@ Usage (from IDE)
 
 Usage (from Console):
 ------
+1. Open CMD and type: ```java -jar serializability.jar```
+2. You now have two options to add as a parameter:
+    * ```test```: provides you with a test case with an explanation on how to use program 
+    * ```<your-schedule>```: returns the result for your schedule
+
 **Input:**
 
  ```java 
