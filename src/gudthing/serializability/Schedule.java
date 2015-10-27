@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * draw a precedence graph.
  *
  * @author Benjamin Scabbia
- * @version 1
+ * @version 1.1
  */
 public class Schedule {
     // the schedule which holds the operations

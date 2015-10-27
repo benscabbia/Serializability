@@ -1,7 +1,11 @@
 package gudthing.serializability;
 
 /**
- * Created by Ben on 23/10/2015.
+ * App class used to launch the application
+ * The class provides a template and a helper method on how to use the app
+ *
+ * @author Benjamin Scabbia
+ * @version 1.1
  */
 public class App {
     public static void main(String[] args) {
