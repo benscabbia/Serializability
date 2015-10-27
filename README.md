@@ -10,7 +10,9 @@ I developed this brute force algorithm during my masters studies. It's a great a
 * Provides some feedback and basic explanation about the schedule
 * It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
 
-**Usage (from IDE):**
+
+Usage (from IDE)
+------
 
 1. Create a schedule: ```String[] schedule = {"r1x", "r2z", "r1z", "r3y", "r3y", "w1x", "w3y", "r2y", "w2z", "w2y"};```
 2. Create an instance of Schedule (passing in schedule as parameter): ```Schedule s = new Schedule(schedule);```
@@ -45,7 +47,9 @@ I developed this brute force algorithm during my masters studies. It's a great a
   The schedule is also View-Serializable (Every conflict serializable schedule is also view serializable)
 ```
 
-**Usage (from Console (CMD)):**
+Usage (from Console):
+------
+**Input:**
 
  ```java 
  
