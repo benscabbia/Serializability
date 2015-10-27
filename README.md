@@ -10,6 +10,17 @@ I developed this brute force algorithm during my masters studies. It's a great a
 * Provides some feedback and basic explanation about the schedule
 * It will specify iff it is **view serializable** (will only mention if it knows, but there are no set methods) 
 
+Schedule Format:
+------
+The app takes a schedule in the form of: ```"r1x", "r2z", "r1z", "r3y", "r3y",...```
+
+Let's look at the first instructions:
+* ```r1x```: r = read, 1 = the transaction, x is the element
+
+Let *z* be an arbitrary instruction, then:
+* ```z[0]```: can take the form of ```r``` (read) or ```w``` (write) to set the behaviour
+* ```z[1]```: can take the form of ```1,2,3,n``` to set the transaction
+* ```z[2]```: can take the form of ```a,b,c,z``` to set the element
 
 Usage (from IDE):
 ------
