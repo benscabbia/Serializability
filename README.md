@@ -19,9 +19,8 @@ Let's look at the first instructions:
 
 Let *z* be an arbitrary instruction, then:
 * ```z[0]```: can take the form of ```r``` (read) or ```w``` (write) to set the behaviour
-* ```z[1]```: can take the form of ```1,2,3,n``` to set the transaction
-* ```z[2]```: can take the form of ```a,b,c,z``` to set the element
-* 
+* ```z[1]```: can take the form of ```1,2,3,...,n``` to set the transaction
+* ```z[2]```: can take the form of ```a,b,c,...,z``` to set the element
 
 **Note:** Schedule **MUST** be spaced exactly like examples:```"r1x", "r2z",...```. This will **NOT** work: ```"r1x","r2z",...```
 
