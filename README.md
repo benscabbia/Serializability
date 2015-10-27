@@ -18,7 +18,7 @@ Let's look at the first instructions:
 * ```r1x```: r = read, 1 = the transaction, x is the element
 
 Let *z* be an arbitrary instruction, then:
-* ```z[0]```: can take the form of ```r``` (read) or ```w``` (write) to set the behaviour
+* ```z[0]```: can take the form of ```r``` (read) or ```w``` (write) to set the operation
 * ```z[1]```: can take the form of ```1,2,3,...,n``` to set the transaction
 * ```z[2]```: can take the form of ```a,b,c,...,z``` to set the element
 
